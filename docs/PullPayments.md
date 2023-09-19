@@ -41,7 +41,7 @@ The receiver will choose for their payout:
 Once a payout is created, it will count toward the `pull payment's limit` for the current `period`.
 The sender will then approve the payout by setting the `rate` in which the payout will be sent, and proceed with payment.
 
-For the sender, we provide an easy to use way to batch the payment of several payouts from the [BTCPay Internal Wallet](./Wallet.md).
+For the sender, we provide an easy to use way to batch the payment of several payouts from the [BTCPay Internal Wallet](./Wallet.Md.).
 
 ```
 
@@ -65,7 +65,7 @@ For the sender, we provide an easy to use way to batch the payment of several pa
       |                            +<---------------------------+
       |                            |           Payout           |
       |                            |                            |
-      |         Approve            |                            |
+      |         Approved            |                            |
       +--------------------------->+                            v
       |         Payout             |
       |                            |
